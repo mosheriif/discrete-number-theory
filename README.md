@@ -24,11 +24,10 @@ Provides functions to compute the **GCD** and **LCM** of two positive integers:
 
 ### 4. Chinese Remainder Theorem
 
-Implements the **Chinese Remainder Theorem** for inputs \( m_1, m_2, m_3, \dots, m_n \) (pairwise relatively prime) and \( a_1, a_2, \dots, a_n \) to find an integer \( x \) such that:
-   - \( x \equiv a_1 \pmod{m_1} \)
-   - \( x \equiv a_2 \pmod{m_2} \)
-   - \( \dots \)
-   - \( x \equiv a_n \pmod{m_n} \)
+Implements the **Chinese Remainder Theorem** for inputs (m1, m2, m3, ..., mn), which are pairwise relatively prime, and (a1, a2, ..., an) to find an integer `x` such that:
+   - `x = a1 (mod m1)`
+   - `x = a2 (mod m2)`
+   - `x = an (mod mn)`
 
 ## Usage
 
